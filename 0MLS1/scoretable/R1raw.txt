@@ -1,0 +1,259 @@
+1. Mediumseagreen 137pts
+
+2. Forestgreen 136pts
+
+3. Thistle 135pts
+
+4. Lightyellow 134pts
+
+5. Lemonchiffon 133pts
+
+6. Darkorange 132pts
+
+7. Coral 131pts
+
+8. Lightcyan 129pts
+
+9. Firebrick 128pts
+
+10. Mediumorchid 127pts
+
+11. Darkgray 126pts
+
+12. Moccasin 125pts
+
+13. Blueviolet 124pts
+
+14. Blanchedalmond 122pts
+
+15. Aquamarine 120pts
+
+16. Paleturquoise 119pts
+
+17. Darkblue 118pts
+
+18. Violet 117pts
+
+19. Darkgreen 116pts
+
+20. Goldenrod 115pts
+
+21. Lightpink 114pts
+
+22. Rosybrown 113pts
+
+23. Darkviolet 112pts
+
+24. Aliceblue 111pts
+
+25. Indianred 110pts
+
+26. Plum 109pts
+
+27. Lightgreen 107pts
+
+28. Darkgoldenrod 106pts
+
+29. Khaki 105pts
+
+30. Darkorchid 104pts
+
+31. Deepskyblue 103pts
+
+32. Lawngreen 102pts
+
+33. Mintcream 101pts
+
+34. Midnightblue 100pts
+
+35. Darkkhaki 99pts
+
+36. Mediumpurple 97pts
+
+37. Lightseagreen 96pts
+
+38. Chocolate 94pts
+
+39. Mediumspringgreen 93pts
+
+40. Sandybrown 92pts
+
+41. Floralwhite 90pts
+
+42. Tan 88pts
+
+43. Pink 87pts
+
+44. Burlywood 86pts
+
+45. Snow 85pts
+
+46. Linen 84pts
+
+47. Dodgerblue 83pts
+
+48. Lightsalmon 82pts
+
+49. Peachpuff 81pts
+
+50. Mediumslateblue 80pts
+
+51. Steelblue 79pts
+
+52. Lightblue 78pts
+
+53. Turquoise 77pts
+
+54. Palegoldenrod 76pts
+
+55. Darkseagreen 75pts
+
+56. Darkslateblue 74pts
+
+57. Ghostwhite 73pts
+
+58. Mediumvioletred 72pts
+
+59. Lightgray 71pts
+
+60. Salmon 70pts
+
+61. Saddlebrown 69pts
+
+62. Lightslategray 67pts
+
+63. Darkmagenta 66pts
+
+64. Whitesmoke 64pts
+
+65. Chartreuse 63pts
+
+66. Indigo 62pts
+
+67. Skyblue 61pts
+
+68. Slategray 60pts
+
+69. Beige 59pts
+
+70. Mediumaquamarine 58pts
+
+71. Oldlace 57pts
+
+72. Orchid 56pts
+
+73. Lavender 55pts
+
+74. Sienna 53pts
+
+75. Limegreen 51pts
+
+76. Seagreen 50pts
+
+77. Lightsteelblue 49pts
+
+78. Brown 48pts
+
+79. Tomato 47pts
+
+80. Greenyellow 46pts
+
+81. Peru 45pts
+
+82. Bisque 44pts
+
+83. Powderblue 43pts
+
+84. Mistyrose 42pts
+
+85. Seashell 41pts
+
+86. Darkolivegreen 39pts
+
+87. Papayawhip 38pts
+
+88. Darkturquoise 37pts
+
+89. Wheat 35pts
+
+90. Darksalmon 34pts
+
+91. Orangered 33pts
+
+92. Dimgray 32pts
+
+93. Gold 31pts
+
+94. Azure 30pts
+
+95. Honeydew 29pts
+
+96. Lavenderblush 28pts
+
+97. Darkred 27pts
+
+98. Hotpink 26pts
+
+99. Springgreen 25pts
+
+100. Lightskyblue 24pts
+
+101. Lightcoral 22pts
+
+102. Darkcyan 21pts
+
+103. Lightgoldenrodyellow 20pts
+
+104. Gainsboro 19pts
+
+105. Navajowhite 18pts
+
+106. Antiquewhite 17pts
+
+107. Mediumturquoise 16pts
+
+108. Royalblue 15pts
+
+109. Crimson 14pts
+
+110. Cornsilk 12pts
+
+111. Darkslategray 11pts
+
+112. Yellowgreen 10pts
+
+113. Ivory 9pts
+
+114. Mediumblue 8pts
+
+115. Cornflowerblue 7pts
+
+116. Olivedrab 6pts
+
+117. Slateblue 5pts
+
+118. Palevioletred 4pts
+
+119. Deeppink 2pts
+
+120. Palegreen 1pts
+
+121. Cadetblue 0pts
+
+. Black 130pts
+. White 123pts
+. Purple 121pts
+. Olive 108pts
+. Maroon 98pts
+. Silver 95pts
+. Green 91pts
+. Lime 89pts
+. Gray 68pts
+. Red 65pts
+. Teal 54pts
+. Blue 52pts
+. Orange 40pts
+. Yellow 36pts
+. Navy 23pts
+. Cyan 13pts
+. Magenta 3pts
