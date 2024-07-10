@@ -1,6 +1,5 @@
 import re
 import json
-import csv
 scoretable = {}
 with open('R1raw.txt', 'r', encoding='utf-8') as fp:
     R1raw = fp.read()
@@ -25,12 +24,9 @@ with open('R2raw.txt', 'r', encoding='utf-8') as fp:
         score2 = score - scoretable[name][0]
         scoretable[name].append(score2)
 
-scoredata = []
+scoredata = {}
 for i in scoretable.items():
-    scoredata.append(
-        {'id': i[0].lower(), 'score1': i[1][0], 'score2': i[1][1]})
+    scoredata[i[0].lower()] = {'score1': i[1][0], 'score2': i[1][1]}
 
-with open('score_table.csv', 'w', newline='', encoding='utf-8') as fp:
-    writer = csv.DictWriter(fp, ['id', 'score1', 'score2'])
-    writer.writeheader()
-    writer.writerows(sorted(scoredata, key=lambda x: x['id']))
+with open('score_table.json', 'w', encoding='utf-8') as fp:
+    fp.write(json.dumps(scoredata))
