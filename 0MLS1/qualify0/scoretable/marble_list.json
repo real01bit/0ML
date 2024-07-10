@@ -585,7 +585,7 @@
         "name": "Orange",
         "hex": "#ffa500",
         "color": [255, 165, 0],
-        "basic": false
+        "basic": true
     },
     "orangered": {
         "name": "Orangered",
