@@ -66,7 +66,7 @@ for row in score_list:
         fls = score
         fth += 1
     else:
-        if score != ls0:
+        if score != ls:
             lt = th
         score_data[marble_id]['th'] = lt
         ls = score
