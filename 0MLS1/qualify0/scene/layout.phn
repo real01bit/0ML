@@ -1,0 +1,1656 @@
+
+Scene.addCircle {
+    _id := "aliceblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.941176,0.972549,1.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.000000,0.000000];
+    materialName := "Aliceblue";
+};
+
+Scene.addCircle {
+    _id := "antiquewhite";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.980392,0.921569,0.843137,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.500000,0.000000];
+    materialName := "Antiquewhite";
+};
+
+Scene.addCircle {
+    _id := "cyan";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.000000,1.000000,1.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.000000,0.000000];
+    materialName := "Cyan";
+};
+
+Scene.addCircle {
+    _id := "aquamarine";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.498039,1.000000,0.831373,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.500000,0.000000];
+    materialName := "Aquamarine";
+};
+
+Scene.addCircle {
+    _id := "azure";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.941176,1.000000,1.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.000000,0.000000];
+    materialName := "Azure";
+};
+
+Scene.addCircle {
+    _id := "beige";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.960784,0.960784,0.862745,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.500000,0.000000];
+    materialName := "Beige";
+};
+
+Scene.addCircle {
+    _id := "bisque";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.894118,0.768627,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.000000,0.000000];
+    materialName := "Bisque";
+};
+
+Scene.addCircle {
+    _id := "black";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.000000,0.000000,0.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.500000,0.000000];
+    materialName := "Black";
+};
+
+Scene.addCircle {
+    _id := "blanchedalmond";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.921569,0.803922,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.000000,0.000000];
+    materialName := "Blanchedalmond";
+};
+
+Scene.addCircle {
+    _id := "blue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.000000,0.000000,1.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.500000,0.000000];
+    materialName := "Blue";
+};
+
+Scene.addCircle {
+    _id := "blueviolet";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.541176,0.168627,0.886275,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.000000,-0.500000];
+    materialName := "Blueviolet";
+};
+
+Scene.addCircle {
+    _id := "brown";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.647059,0.164706,0.164706,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.500000,-0.500000];
+    materialName := "Brown";
+};
+
+Scene.addCircle {
+    _id := "burlywood";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.870588,0.721569,0.529412,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.000000,-0.500000];
+    materialName := "Burlywood";
+};
+
+Scene.addCircle {
+    _id := "cadetblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.372549,0.619608,0.627451,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.500000,-0.500000];
+    materialName := "Cadetblue";
+};
+
+Scene.addCircle {
+    _id := "chartreuse";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.498039,1.000000,0.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.000000,-0.500000];
+    materialName := "Chartreuse";
+};
+
+Scene.addCircle {
+    _id := "chocolate";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.823529,0.411765,0.117647,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.500000,-0.500000];
+    materialName := "Chocolate";
+};
+
+Scene.addCircle {
+    _id := "coral";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.498039,0.313725,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.000000,-0.500000];
+    materialName := "Coral";
+};
+
+Scene.addCircle {
+    _id := "cornflowerblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.392157,0.584314,0.929412,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.500000,-0.500000];
+    materialName := "Cornflowerblue";
+};
+
+Scene.addCircle {
+    _id := "cornsilk";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.972549,0.862745,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.000000,-0.500000];
+    materialName := "Cornsilk";
+};
+
+Scene.addCircle {
+    _id := "crimson";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.862745,0.078431,0.235294,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.500000,-0.500000];
+    materialName := "Crimson";
+};
+
+Scene.addCircle {
+    _id := "darkblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.000000,0.000000,0.545098,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.000000,-1.000000];
+    materialName := "Darkblue";
+};
+
+Scene.addCircle {
+    _id := "darkcyan";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.000000,0.545098,0.545098,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.500000,-1.000000];
+    materialName := "Darkcyan";
+};
+
+Scene.addCircle {
+    _id := "darkgoldenrod";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.721569,0.525490,0.043137,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.000000,-1.000000];
+    materialName := "Darkgoldenrod";
+};
+
+Scene.addCircle {
+    _id := "darkgray";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.662745,0.662745,0.662745,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.500000,-1.000000];
+    materialName := "Darkgray";
+};
+
+Scene.addCircle {
+    _id := "darkgreen";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.000000,0.392157,0.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.000000,-1.000000];
+    materialName := "Darkgreen";
+};
+
+Scene.addCircle {
+    _id := "darkkhaki";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.741176,0.717647,0.419608,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.500000,-1.000000];
+    materialName := "Darkkhaki";
+};
+
+Scene.addCircle {
+    _id := "darkmagenta";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.545098,0.000000,0.545098,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.000000,-1.000000];
+    materialName := "Darkmagenta";
+};
+
+Scene.addCircle {
+    _id := "darkolivegreen";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.333333,0.419608,0.184314,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.500000,-1.000000];
+    materialName := "Darkolivegreen";
+};
+
+Scene.addCircle {
+    _id := "darkorange";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.549020,0.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.000000,-1.000000];
+    materialName := "Darkorange";
+};
+
+Scene.addCircle {
+    _id := "darkorchid";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.600000,0.196078,0.800000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.500000,-1.000000];
+    materialName := "Darkorchid";
+};
+
+Scene.addCircle {
+    _id := "darkred";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.545098,0.000000,0.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.000000,-1.500000];
+    materialName := "Darkred";
+};
+
+Scene.addCircle {
+    _id := "darksalmon";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.913725,0.588235,0.478431,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.500000,-1.500000];
+    materialName := "Darksalmon";
+};
+
+Scene.addCircle {
+    _id := "darkseagreen";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.560784,0.737255,0.560784,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.000000,-1.500000];
+    materialName := "Darkseagreen";
+};
+
+Scene.addCircle {
+    _id := "darkslateblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.282353,0.239216,0.545098,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.500000,-1.500000];
+    materialName := "Darkslateblue";
+};
+
+Scene.addCircle {
+    _id := "darkslategray";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.184314,0.309804,0.309804,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.000000,-1.500000];
+    materialName := "Darkslategray";
+};
+
+Scene.addCircle {
+    _id := "darkturquoise";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.000000,0.807843,0.819608,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.500000,-1.500000];
+    materialName := "Darkturquoise";
+};
+
+Scene.addCircle {
+    _id := "darkviolet";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.580392,0.000000,0.827451,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.000000,-1.500000];
+    materialName := "Darkviolet";
+};
+
+Scene.addCircle {
+    _id := "deeppink";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.078431,0.576471,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.500000,-1.500000];
+    materialName := "Deeppink";
+};
+
+Scene.addCircle {
+    _id := "deepskyblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.000000,0.749020,1.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.000000,-1.500000];
+    materialName := "Deepskyblue";
+};
+
+Scene.addCircle {
+    _id := "dimgray";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.411765,0.411765,0.411765,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.500000,-1.500000];
+    materialName := "Dimgray";
+};
+
+Scene.addCircle {
+    _id := "dodgerblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.117647,0.564706,1.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.000000,-2.000000];
+    materialName := "Dodgerblue";
+};
+
+Scene.addCircle {
+    _id := "firebrick";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.698039,0.133333,0.133333,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.500000,-2.000000];
+    materialName := "Firebrick";
+};
+
+Scene.addCircle {
+    _id := "floralwhite";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.980392,0.941176,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.000000,-2.000000];
+    materialName := "Floralwhite";
+};
+
+Scene.addCircle {
+    _id := "forestgreen";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.133333,0.545098,0.133333,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.500000,-2.000000];
+    materialName := "Forestgreen";
+};
+
+Scene.addCircle {
+    _id := "magenta";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.000000,1.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.000000,-2.000000];
+    materialName := "Magenta";
+};
+
+Scene.addCircle {
+    _id := "gainsboro";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.862745,0.862745,0.862745,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.500000,-2.000000];
+    materialName := "Gainsboro";
+};
+
+Scene.addCircle {
+    _id := "ghostwhite";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.972549,0.972549,1.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.000000,-2.000000];
+    materialName := "Ghostwhite";
+};
+
+Scene.addCircle {
+    _id := "gold";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.843137,0.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.500000,-2.000000];
+    materialName := "Gold";
+};
+
+Scene.addCircle {
+    _id := "goldenrod";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.854902,0.647059,0.125490,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.000000,-2.000000];
+    materialName := "Goldenrod";
+};
+
+Scene.addCircle {
+    _id := "gray";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.501961,0.501961,0.501961,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.500000,-2.000000];
+    materialName := "Gray";
+};
+
+Scene.addCircle {
+    _id := "green";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.000000,0.501961,0.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.000000,-2.500000];
+    materialName := "Green";
+};
+
+Scene.addCircle {
+    _id := "greenyellow";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.678431,1.000000,0.184314,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.500000,-2.500000];
+    materialName := "Greenyellow";
+};
+
+Scene.addCircle {
+    _id := "honeydew";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.941176,1.000000,0.941176,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.000000,-2.500000];
+    materialName := "Honeydew";
+};
+
+Scene.addCircle {
+    _id := "hotpink";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.411765,0.705882,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.500000,-2.500000];
+    materialName := "Hotpink";
+};
+
+Scene.addCircle {
+    _id := "indianred";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.803922,0.360784,0.360784,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.000000,-2.500000];
+    materialName := "Indianred";
+};
+
+Scene.addCircle {
+    _id := "indigo";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.294118,0.000000,0.509804,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.500000,-2.500000];
+    materialName := "Indigo";
+};
+
+Scene.addCircle {
+    _id := "ivory";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,1.000000,0.941176,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.000000,-2.500000];
+    materialName := "Ivory";
+};
+
+Scene.addCircle {
+    _id := "khaki";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.941176,0.901961,0.549020,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.500000,-2.500000];
+    materialName := "Khaki";
+};
+
+Scene.addCircle {
+    _id := "lavender";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.901961,0.901961,0.980392,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.000000,-2.500000];
+    materialName := "Lavender";
+};
+
+Scene.addCircle {
+    _id := "lavenderblush";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.941176,0.960784,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.500000,-2.500000];
+    materialName := "Lavenderblush";
+};
+
+Scene.addCircle {
+    _id := "lawngreen";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.486275,0.988235,0.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.000000,-3.000000];
+    materialName := "Lawngreen";
+};
+
+Scene.addCircle {
+    _id := "lemonchiffon";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.980392,0.803922,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.500000,-3.000000];
+    materialName := "Lemonchiffon";
+};
+
+Scene.addCircle {
+    _id := "lightblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.678431,0.847059,0.901961,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.000000,-3.000000];
+    materialName := "Lightblue";
+};
+
+Scene.addCircle {
+    _id := "lightcoral";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.941176,0.501961,0.501961,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.500000,-3.000000];
+    materialName := "Lightcoral";
+};
+
+Scene.addCircle {
+    _id := "lightcyan";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.878431,1.000000,1.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.000000,-3.000000];
+    materialName := "Lightcyan";
+};
+
+Scene.addCircle {
+    _id := "lightgoldenrodyellow";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.980392,0.980392,0.823529,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.500000,-3.000000];
+    materialName := "Lightgoldenrodyellow";
+};
+
+Scene.addCircle {
+    _id := "lightgray";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.827451,0.827451,0.827451,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.000000,-3.000000];
+    materialName := "Lightgray";
+};
+
+Scene.addCircle {
+    _id := "lightgreen";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.564706,0.933333,0.564706,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.500000,-3.000000];
+    materialName := "Lightgreen";
+};
+
+Scene.addCircle {
+    _id := "lightpink";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.713725,0.756863,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.000000,-3.000000];
+    materialName := "Lightpink";
+};
+
+Scene.addCircle {
+    _id := "lightsalmon";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.627451,0.478431,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.500000,-3.000000];
+    materialName := "Lightsalmon";
+};
+
+Scene.addCircle {
+    _id := "lightseagreen";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.125490,0.698039,0.666667,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.000000,-3.500000];
+    materialName := "Lightseagreen";
+};
+
+Scene.addCircle {
+    _id := "lightskyblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.529412,0.807843,0.980392,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.500000,-3.500000];
+    materialName := "Lightskyblue";
+};
+
+Scene.addCircle {
+    _id := "lightslategray";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.466667,0.533333,0.600000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.000000,-3.500000];
+    materialName := "Lightslategray";
+};
+
+Scene.addCircle {
+    _id := "lightsteelblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.690196,0.768627,0.870588,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.500000,-3.500000];
+    materialName := "Lightsteelblue";
+};
+
+Scene.addCircle {
+    _id := "lightyellow";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,1.000000,0.878431,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.000000,-3.500000];
+    materialName := "Lightyellow";
+};
+
+Scene.addCircle {
+    _id := "lime";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.000000,1.000000,0.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.500000,-3.500000];
+    materialName := "Lime";
+};
+
+Scene.addCircle {
+    _id := "limegreen";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.196078,0.803922,0.196078,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.000000,-3.500000];
+    materialName := "Limegreen";
+};
+
+Scene.addCircle {
+    _id := "linen";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.980392,0.941176,0.901961,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.500000,-3.500000];
+    materialName := "Linen";
+};
+
+Scene.addCircle {
+    _id := "maroon";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.501961,0.000000,0.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.000000,-3.500000];
+    materialName := "Maroon";
+};
+
+Scene.addCircle {
+    _id := "mediumaquamarine";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.400000,0.803922,0.666667,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.500000,-3.500000];
+    materialName := "Mediumaquamarine";
+};
+
+Scene.addCircle {
+    _id := "mediumblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.000000,0.000000,0.803922,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.000000,-4.000000];
+    materialName := "Mediumblue";
+};
+
+Scene.addCircle {
+    _id := "mediumorchid";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.729412,0.333333,0.827451,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.500000,-4.000000];
+    materialName := "Mediumorchid";
+};
+
+Scene.addCircle {
+    _id := "mediumpurple";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.576471,0.439216,0.858824,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.000000,-4.000000];
+    materialName := "Mediumpurple";
+};
+
+Scene.addCircle {
+    _id := "mediumseagreen";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.235294,0.701961,0.443137,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.500000,-4.000000];
+    materialName := "Mediumseagreen";
+};
+
+Scene.addCircle {
+    _id := "mediumslateblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.482353,0.407843,0.933333,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.000000,-4.000000];
+    materialName := "Mediumslateblue";
+};
+
+Scene.addCircle {
+    _id := "mediumspringgreen";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.000000,0.980392,0.603922,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.500000,-4.000000];
+    materialName := "Mediumspringgreen";
+};
+
+Scene.addCircle {
+    _id := "mediumturquoise";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.282353,0.819608,0.800000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.000000,-4.000000];
+    materialName := "Mediumturquoise";
+};
+
+Scene.addCircle {
+    _id := "mediumvioletred";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.780392,0.082353,0.521569,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.500000,-4.000000];
+    materialName := "Mediumvioletred";
+};
+
+Scene.addCircle {
+    _id := "midnightblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.098039,0.098039,0.439216,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.000000,-4.000000];
+    materialName := "Midnightblue";
+};
+
+Scene.addCircle {
+    _id := "mintcream";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.960784,1.000000,0.980392,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.500000,-4.000000];
+    materialName := "Mintcream";
+};
+
+Scene.addCircle {
+    _id := "mistyrose";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.894118,0.882353,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.000000,-4.500000];
+    materialName := "Mistyrose";
+};
+
+Scene.addCircle {
+    _id := "moccasin";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.894118,0.709804,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.500000,-4.500000];
+    materialName := "Moccasin";
+};
+
+Scene.addCircle {
+    _id := "navajowhite";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.870588,0.678431,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.000000,-4.500000];
+    materialName := "Navajowhite";
+};
+
+Scene.addCircle {
+    _id := "navy";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.000000,0.000000,0.501961,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.500000,-4.500000];
+    materialName := "Navy";
+};
+
+Scene.addCircle {
+    _id := "oldlace";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.992157,0.960784,0.901961,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.000000,-4.500000];
+    materialName := "Oldlace";
+};
+
+Scene.addCircle {
+    _id := "olive";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.501961,0.501961,0.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.500000,-4.500000];
+    materialName := "Olive";
+};
+
+Scene.addCircle {
+    _id := "olivedrab";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.419608,0.556863,0.137255,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.000000,-4.500000];
+    materialName := "Olivedrab";
+};
+
+Scene.addCircle {
+    _id := "orange";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.647059,0.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.500000,-4.500000];
+    materialName := "Orange";
+};
+
+Scene.addCircle {
+    _id := "orangered";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.270588,0.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.000000,-4.500000];
+    materialName := "Orangered";
+};
+
+Scene.addCircle {
+    _id := "orchid";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.854902,0.439216,0.839216,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.500000,-4.500000];
+    materialName := "Orchid";
+};
+
+Scene.addCircle {
+    _id := "palegoldenrod";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.933333,0.909804,0.666667,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.000000,-5.000000];
+    materialName := "Palegoldenrod";
+};
+
+Scene.addCircle {
+    _id := "palegreen";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.596078,0.984314,0.596078,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.500000,-5.000000];
+    materialName := "Palegreen";
+};
+
+Scene.addCircle {
+    _id := "paleturquoise";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.686275,0.933333,0.933333,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.000000,-5.000000];
+    materialName := "Paleturquoise";
+};
+
+Scene.addCircle {
+    _id := "palevioletred";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.858824,0.439216,0.576471,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.500000,-5.000000];
+    materialName := "Palevioletred";
+};
+
+Scene.addCircle {
+    _id := "papayawhip";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.937255,0.835294,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.000000,-5.000000];
+    materialName := "Papayawhip";
+};
+
+Scene.addCircle {
+    _id := "peachpuff";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.854902,0.725490,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.500000,-5.000000];
+    materialName := "Peachpuff";
+};
+
+Scene.addCircle {
+    _id := "peru";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.803922,0.521569,0.247059,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.000000,-5.000000];
+    materialName := "Peru";
+};
+
+Scene.addCircle {
+    _id := "pink";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.752941,0.796078,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.500000,-5.000000];
+    materialName := "Pink";
+};
+
+Scene.addCircle {
+    _id := "plum";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.866667,0.627451,0.866667,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.000000,-5.000000];
+    materialName := "Plum";
+};
+
+Scene.addCircle {
+    _id := "powderblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.690196,0.878431,0.901961,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.500000,-5.000000];
+    materialName := "Powderblue";
+};
+
+Scene.addCircle {
+    _id := "purple";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.501961,0.000000,0.501961,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.000000,-5.500000];
+    materialName := "Purple";
+};
+
+Scene.addCircle {
+    _id := "red";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.000000,0.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.500000,-5.500000];
+    materialName := "Red";
+};
+
+Scene.addCircle {
+    _id := "rosybrown";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.737255,0.560784,0.560784,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.000000,-5.500000];
+    materialName := "Rosybrown";
+};
+
+Scene.addCircle {
+    _id := "royalblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.254902,0.411765,0.882353,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.500000,-5.500000];
+    materialName := "Royalblue";
+};
+
+Scene.addCircle {
+    _id := "saddlebrown";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.545098,0.270588,0.074510,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.000000,-5.500000];
+    materialName := "Saddlebrown";
+};
+
+Scene.addCircle {
+    _id := "salmon";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.980392,0.501961,0.447059,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.500000,-5.500000];
+    materialName := "Salmon";
+};
+
+Scene.addCircle {
+    _id := "sandybrown";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.956863,0.643137,0.376471,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.000000,-5.500000];
+    materialName := "Sandybrown";
+};
+
+Scene.addCircle {
+    _id := "seagreen";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.180392,0.545098,0.341176,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.500000,-5.500000];
+    materialName := "Seagreen";
+};
+
+Scene.addCircle {
+    _id := "seashell";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.960784,0.933333,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.000000,-5.500000];
+    materialName := "Seashell";
+};
+
+Scene.addCircle {
+    _id := "sienna";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.627451,0.321569,0.176471,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.500000,-5.500000];
+    materialName := "Sienna";
+};
+
+Scene.addCircle {
+    _id := "silver";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.752941,0.752941,0.752941,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.000000,-6.000000];
+    materialName := "Silver";
+};
+
+Scene.addCircle {
+    _id := "skyblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.529412,0.807843,0.921569,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.500000,-6.000000];
+    materialName := "Skyblue";
+};
+
+Scene.addCircle {
+    _id := "slateblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.415686,0.352941,0.803922,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.000000,-6.000000];
+    materialName := "Slateblue";
+};
+
+Scene.addCircle {
+    _id := "slategray";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.439216,0.501961,0.564706,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.500000,-6.000000];
+    materialName := "Slategray";
+};
+
+Scene.addCircle {
+    _id := "snow";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.980392,0.980392,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.000000,-6.000000];
+    materialName := "Snow";
+};
+
+Scene.addCircle {
+    _id := "springgreen";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.000000,1.000000,0.498039,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.500000,-6.000000];
+    materialName := "Springgreen";
+};
+
+Scene.addCircle {
+    _id := "steelblue";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.274510,0.509804,0.705882,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.000000,-6.000000];
+    materialName := "Steelblue";
+};
+
+Scene.addCircle {
+    _id := "tan";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.823529,0.705882,0.549020,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.500000,-6.000000];
+    materialName := "Tan";
+};
+
+Scene.addCircle {
+    _id := "teal";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.000000,0.501961,0.501961,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.000000,-6.000000];
+    materialName := "Teal";
+};
+
+Scene.addCircle {
+    _id := "thistle";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.847059,0.749020,0.847059,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [4.500000,-6.000000];
+    materialName := "Thistle";
+};
+
+Scene.addCircle {
+    _id := "tomato";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,0.388235,0.278431,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.000000,-6.500000];
+    materialName := "Tomato";
+};
+
+Scene.addCircle {
+    _id := "turquoise";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.250980,0.878431,0.815686,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [0.500000,-6.500000];
+    materialName := "Turquoise";
+};
+
+Scene.addCircle {
+    _id := "violet";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.933333,0.509804,0.933333,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.000000,-6.500000];
+    materialName := "Violet";
+};
+
+Scene.addCircle {
+    _id := "wheat";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.960784,0.870588,0.701961,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [1.500000,-6.500000];
+    materialName := "Wheat";
+};
+
+Scene.addCircle {
+    _id := "white";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,1.000000,1.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.000000,-6.500000];
+    materialName := "White";
+};
+
+Scene.addCircle {
+    _id := "whitesmoke";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.960784,0.960784,0.960784,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [2.500000,-6.500000];
+    materialName := "Whitesmoke";
+};
+
+Scene.addCircle {
+    _id := "yellow";
+    collideSet := 1;
+    drawBorder := false;
+    color := [1.000000,1.000000,0.000000,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.000000,-6.500000];
+    materialName := "Yellow";
+};
+
+Scene.addCircle {
+    _id := "yellowgreen";
+    collideSet := 1;
+    drawBorder := false;
+    color := [0.603922,0.803922,0.196078,1];
+    drawCake := false;
+    onDie := (e)=>{};
+    radius := 0.25000000;
+    pos := [3.500000,-6.500000];
+    materialName := "Yellowgreen";
+};
