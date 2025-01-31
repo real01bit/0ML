@@ -23,6 +23,7 @@ Scene.addCircle {
                 size := [2,0.5];
                 color := [0,0,0,0];
                 drawBorder := false;
+                density := +inf;
                 pos := {
                     ent = scene.entityByID(_follow);
                     ent.pos + [0,0.5]
