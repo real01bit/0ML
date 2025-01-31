@@ -3,6 +3,7 @@ import json
 template = '''
 Scene.addCircle {
     _id := "%s";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [%lf,%lf,%lf,1];
@@ -11,6 +12,26 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [%lf,%lf];
     materialName := "%s";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "%s";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 '''
 
@@ -24,5 +45,5 @@ for id in marbles.keys():
              marble['color'][1]/255, marble['color'][2]/255)
     pos = ((i % 10) * 0.5, -(i // 10) * 0.5)
     phn.write(template % (id, color[0], color[1],
-              color[2], pos[0], pos[1], marble['name']))
+              color[2], pos[0], pos[1], marble['name'], marble['name']))
     i += 1

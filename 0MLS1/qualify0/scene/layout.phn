@@ -1,6 +1,7 @@
 
 Scene.addCircle {
     _id := "aliceblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.941176,0.972549,1.000000,1];
@@ -9,10 +10,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.000000,0.000000];
     materialName := "Aliceblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Aliceblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "antiquewhite";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.980392,0.921569,0.843137,1];
@@ -21,10 +44,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.500000,0.000000];
     materialName := "Antiquewhite";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Antiquewhite";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "cyan";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.000000,1.000000,1.000000,1];
@@ -33,10 +78,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.000000,0.000000];
     materialName := "Cyan";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Cyan";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "aquamarine";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.498039,1.000000,0.831373,1];
@@ -45,10 +112,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.500000,0.000000];
     materialName := "Aquamarine";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Aquamarine";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "azure";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.941176,1.000000,1.000000,1];
@@ -57,10 +146,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.000000,0.000000];
     materialName := "Azure";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Azure";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "beige";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.960784,0.960784,0.862745,1];
@@ -69,10 +180,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.500000,0.000000];
     materialName := "Beige";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Beige";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "bisque";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.894118,0.768627,1];
@@ -81,10 +214,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.000000,0.000000];
     materialName := "Bisque";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Bisque";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "black";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.000000,0.000000,0.000000,1];
@@ -93,10 +248,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.500000,0.000000];
     materialName := "Black";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Black";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "blanchedalmond";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.921569,0.803922,1];
@@ -105,10 +282,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.000000,0.000000];
     materialName := "Blanchedalmond";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Blanchedalmond";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "blue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.000000,0.000000,1.000000,1];
@@ -117,10 +316,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.500000,0.000000];
     materialName := "Blue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Blue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "blueviolet";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.541176,0.168627,0.886275,1];
@@ -129,10 +350,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.000000,-0.500000];
     materialName := "Blueviolet";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Blueviolet";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "brown";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.647059,0.164706,0.164706,1];
@@ -141,10 +384,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.500000,-0.500000];
     materialName := "Brown";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Brown";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "burlywood";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.870588,0.721569,0.529412,1];
@@ -153,10 +418,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.000000,-0.500000];
     materialName := "Burlywood";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Burlywood";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "cadetblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.372549,0.619608,0.627451,1];
@@ -165,10 +452,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.500000,-0.500000];
     materialName := "Cadetblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Cadetblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "chartreuse";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.498039,1.000000,0.000000,1];
@@ -177,10 +486,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.000000,-0.500000];
     materialName := "Chartreuse";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Chartreuse";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "chocolate";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.823529,0.411765,0.117647,1];
@@ -189,10 +520,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.500000,-0.500000];
     materialName := "Chocolate";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Chocolate";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "coral";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.498039,0.313725,1];
@@ -201,10 +554,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.000000,-0.500000];
     materialName := "Coral";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Coral";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "cornflowerblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.392157,0.584314,0.929412,1];
@@ -213,10 +588,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.500000,-0.500000];
     materialName := "Cornflowerblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Cornflowerblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "cornsilk";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.972549,0.862745,1];
@@ -225,10 +622,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.000000,-0.500000];
     materialName := "Cornsilk";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Cornsilk";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "crimson";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.862745,0.078431,0.235294,1];
@@ -237,10 +656,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.500000,-0.500000];
     materialName := "Crimson";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Crimson";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.000000,0.000000,0.545098,1];
@@ -249,10 +690,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.000000,-1.000000];
     materialName := "Darkblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkcyan";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.000000,0.545098,0.545098,1];
@@ -261,10 +724,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.500000,-1.000000];
     materialName := "Darkcyan";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkcyan";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkgoldenrod";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.721569,0.525490,0.043137,1];
@@ -273,10 +758,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.000000,-1.000000];
     materialName := "Darkgoldenrod";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkgoldenrod";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkgray";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.662745,0.662745,0.662745,1];
@@ -285,10 +792,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.500000,-1.000000];
     materialName := "Darkgray";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkgray";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkgreen";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.000000,0.392157,0.000000,1];
@@ -297,10 +826,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.000000,-1.000000];
     materialName := "Darkgreen";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkgreen";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkkhaki";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.741176,0.717647,0.419608,1];
@@ -309,10 +860,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.500000,-1.000000];
     materialName := "Darkkhaki";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkkhaki";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkmagenta";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.545098,0.000000,0.545098,1];
@@ -321,10 +894,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.000000,-1.000000];
     materialName := "Darkmagenta";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkmagenta";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkolivegreen";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.333333,0.419608,0.184314,1];
@@ -333,10 +928,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.500000,-1.000000];
     materialName := "Darkolivegreen";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkolivegreen";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkorange";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.549020,0.000000,1];
@@ -345,10 +962,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.000000,-1.000000];
     materialName := "Darkorange";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkorange";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkorchid";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.600000,0.196078,0.800000,1];
@@ -357,10 +996,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.500000,-1.000000];
     materialName := "Darkorchid";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkorchid";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkred";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.545098,0.000000,0.000000,1];
@@ -369,10 +1030,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.000000,-1.500000];
     materialName := "Darkred";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkred";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darksalmon";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.913725,0.588235,0.478431,1];
@@ -381,10 +1064,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.500000,-1.500000];
     materialName := "Darksalmon";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darksalmon";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkseagreen";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.560784,0.737255,0.560784,1];
@@ -393,10 +1098,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.000000,-1.500000];
     materialName := "Darkseagreen";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkseagreen";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkslateblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.282353,0.239216,0.545098,1];
@@ -405,10 +1132,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.500000,-1.500000];
     materialName := "Darkslateblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkslateblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkslategray";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.184314,0.309804,0.309804,1];
@@ -417,10 +1166,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.000000,-1.500000];
     materialName := "Darkslategray";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkslategray";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkturquoise";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.000000,0.807843,0.819608,1];
@@ -429,10 +1200,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.500000,-1.500000];
     materialName := "Darkturquoise";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkturquoise";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "darkviolet";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.580392,0.000000,0.827451,1];
@@ -441,10 +1234,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.000000,-1.500000];
     materialName := "Darkviolet";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Darkviolet";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "deeppink";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.078431,0.576471,1];
@@ -453,10 +1268,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.500000,-1.500000];
     materialName := "Deeppink";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Deeppink";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "deepskyblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.000000,0.749020,1.000000,1];
@@ -465,10 +1302,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.000000,-1.500000];
     materialName := "Deepskyblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Deepskyblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "dimgray";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.411765,0.411765,0.411765,1];
@@ -477,10 +1336,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.500000,-1.500000];
     materialName := "Dimgray";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Dimgray";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "dodgerblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.117647,0.564706,1.000000,1];
@@ -489,10 +1370,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.000000,-2.000000];
     materialName := "Dodgerblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Dodgerblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "firebrick";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.698039,0.133333,0.133333,1];
@@ -501,10 +1404,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.500000,-2.000000];
     materialName := "Firebrick";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Firebrick";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "floralwhite";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.980392,0.941176,1];
@@ -513,10 +1438,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.000000,-2.000000];
     materialName := "Floralwhite";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Floralwhite";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "forestgreen";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.133333,0.545098,0.133333,1];
@@ -525,10 +1472,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.500000,-2.000000];
     materialName := "Forestgreen";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Forestgreen";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "magenta";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.000000,1.000000,1];
@@ -537,10 +1506,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.000000,-2.000000];
     materialName := "Magenta";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Magenta";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "gainsboro";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.862745,0.862745,0.862745,1];
@@ -549,10 +1540,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.500000,-2.000000];
     materialName := "Gainsboro";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Gainsboro";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "ghostwhite";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.972549,0.972549,1.000000,1];
@@ -561,10 +1574,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.000000,-2.000000];
     materialName := "Ghostwhite";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Ghostwhite";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "gold";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.843137,0.000000,1];
@@ -573,10 +1608,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.500000,-2.000000];
     materialName := "Gold";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Gold";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "goldenrod";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.854902,0.647059,0.125490,1];
@@ -585,10 +1642,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.000000,-2.000000];
     materialName := "Goldenrod";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Goldenrod";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "gray";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.501961,0.501961,0.501961,1];
@@ -597,10 +1676,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.500000,-2.000000];
     materialName := "Gray";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Gray";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "green";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.000000,0.501961,0.000000,1];
@@ -609,10 +1710,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.000000,-2.500000];
     materialName := "Green";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Green";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "greenyellow";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.678431,1.000000,0.184314,1];
@@ -621,10 +1744,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.500000,-2.500000];
     materialName := "Greenyellow";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Greenyellow";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "honeydew";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.941176,1.000000,0.941176,1];
@@ -633,10 +1778,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.000000,-2.500000];
     materialName := "Honeydew";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Honeydew";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "hotpink";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.411765,0.705882,1];
@@ -645,10 +1812,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.500000,-2.500000];
     materialName := "Hotpink";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Hotpink";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "indianred";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.803922,0.360784,0.360784,1];
@@ -657,10 +1846,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.000000,-2.500000];
     materialName := "Indianred";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Indianred";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "indigo";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.294118,0.000000,0.509804,1];
@@ -669,10 +1880,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.500000,-2.500000];
     materialName := "Indigo";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Indigo";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "ivory";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,1.000000,0.941176,1];
@@ -681,10 +1914,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.000000,-2.500000];
     materialName := "Ivory";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Ivory";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "khaki";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.941176,0.901961,0.549020,1];
@@ -693,10 +1948,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.500000,-2.500000];
     materialName := "Khaki";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Khaki";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lavender";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.901961,0.901961,0.980392,1];
@@ -705,10 +1982,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.000000,-2.500000];
     materialName := "Lavender";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lavender";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lavenderblush";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.941176,0.960784,1];
@@ -717,10 +2016,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.500000,-2.500000];
     materialName := "Lavenderblush";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lavenderblush";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lawngreen";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.486275,0.988235,0.000000,1];
@@ -729,10 +2050,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.000000,-3.000000];
     materialName := "Lawngreen";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lawngreen";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lemonchiffon";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.980392,0.803922,1];
@@ -741,10 +2084,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.500000,-3.000000];
     materialName := "Lemonchiffon";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lemonchiffon";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lightblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.678431,0.847059,0.901961,1];
@@ -753,10 +2118,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.000000,-3.000000];
     materialName := "Lightblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lightblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lightcoral";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.941176,0.501961,0.501961,1];
@@ -765,10 +2152,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.500000,-3.000000];
     materialName := "Lightcoral";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lightcoral";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lightcyan";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.878431,1.000000,1.000000,1];
@@ -777,10 +2186,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.000000,-3.000000];
     materialName := "Lightcyan";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lightcyan";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lightgoldenrodyellow";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.980392,0.980392,0.823529,1];
@@ -789,10 +2220,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.500000,-3.000000];
     materialName := "Lightgoldenrodyellow";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lightgoldenrodyellow";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lightgray";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.827451,0.827451,0.827451,1];
@@ -801,10 +2254,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.000000,-3.000000];
     materialName := "Lightgray";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lightgray";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lightgreen";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.564706,0.933333,0.564706,1];
@@ -813,10 +2288,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.500000,-3.000000];
     materialName := "Lightgreen";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lightgreen";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lightpink";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.713725,0.756863,1];
@@ -825,10 +2322,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.000000,-3.000000];
     materialName := "Lightpink";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lightpink";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lightsalmon";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.627451,0.478431,1];
@@ -837,10 +2356,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.500000,-3.000000];
     materialName := "Lightsalmon";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lightsalmon";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lightseagreen";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.125490,0.698039,0.666667,1];
@@ -849,10 +2390,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.000000,-3.500000];
     materialName := "Lightseagreen";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lightseagreen";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lightskyblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.529412,0.807843,0.980392,1];
@@ -861,10 +2424,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.500000,-3.500000];
     materialName := "Lightskyblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lightskyblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lightslategray";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.466667,0.533333,0.600000,1];
@@ -873,10 +2458,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.000000,-3.500000];
     materialName := "Lightslategray";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lightslategray";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lightsteelblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.690196,0.768627,0.870588,1];
@@ -885,10 +2492,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.500000,-3.500000];
     materialName := "Lightsteelblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lightsteelblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lightyellow";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,1.000000,0.878431,1];
@@ -897,10 +2526,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.000000,-3.500000];
     materialName := "Lightyellow";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lightyellow";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "lime";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.000000,1.000000,0.000000,1];
@@ -909,10 +2560,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.500000,-3.500000];
     materialName := "Lime";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Lime";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "limegreen";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.196078,0.803922,0.196078,1];
@@ -921,10 +2594,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.000000,-3.500000];
     materialName := "Limegreen";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Limegreen";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "linen";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.980392,0.941176,0.901961,1];
@@ -933,10 +2628,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.500000,-3.500000];
     materialName := "Linen";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Linen";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "maroon";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.501961,0.000000,0.000000,1];
@@ -945,10 +2662,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.000000,-3.500000];
     materialName := "Maroon";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Maroon";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "mediumaquamarine";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.400000,0.803922,0.666667,1];
@@ -957,10 +2696,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.500000,-3.500000];
     materialName := "Mediumaquamarine";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Mediumaquamarine";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "mediumblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.000000,0.000000,0.803922,1];
@@ -969,10 +2730,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.000000,-4.000000];
     materialName := "Mediumblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Mediumblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "mediumorchid";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.729412,0.333333,0.827451,1];
@@ -981,10 +2764,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.500000,-4.000000];
     materialName := "Mediumorchid";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Mediumorchid";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "mediumpurple";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.576471,0.439216,0.858824,1];
@@ -993,10 +2798,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.000000,-4.000000];
     materialName := "Mediumpurple";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Mediumpurple";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "mediumseagreen";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.235294,0.701961,0.443137,1];
@@ -1005,10 +2832,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.500000,-4.000000];
     materialName := "Mediumseagreen";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Mediumseagreen";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "mediumslateblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.482353,0.407843,0.933333,1];
@@ -1017,10 +2866,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.000000,-4.000000];
     materialName := "Mediumslateblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Mediumslateblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "mediumspringgreen";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.000000,0.980392,0.603922,1];
@@ -1029,10 +2900,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.500000,-4.000000];
     materialName := "Mediumspringgreen";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Mediumspringgreen";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "mediumturquoise";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.282353,0.819608,0.800000,1];
@@ -1041,10 +2934,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.000000,-4.000000];
     materialName := "Mediumturquoise";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Mediumturquoise";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "mediumvioletred";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.780392,0.082353,0.521569,1];
@@ -1053,10 +2968,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.500000,-4.000000];
     materialName := "Mediumvioletred";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Mediumvioletred";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "midnightblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.098039,0.098039,0.439216,1];
@@ -1065,10 +3002,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.000000,-4.000000];
     materialName := "Midnightblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Midnightblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "mintcream";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.960784,1.000000,0.980392,1];
@@ -1077,10 +3036,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.500000,-4.000000];
     materialName := "Mintcream";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Mintcream";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "mistyrose";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.894118,0.882353,1];
@@ -1089,10 +3070,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.000000,-4.500000];
     materialName := "Mistyrose";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Mistyrose";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "moccasin";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.894118,0.709804,1];
@@ -1101,10 +3104,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.500000,-4.500000];
     materialName := "Moccasin";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Moccasin";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "navajowhite";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.870588,0.678431,1];
@@ -1113,10 +3138,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.000000,-4.500000];
     materialName := "Navajowhite";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Navajowhite";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "navy";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.000000,0.000000,0.501961,1];
@@ -1125,10 +3172,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.500000,-4.500000];
     materialName := "Navy";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Navy";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "oldlace";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.992157,0.960784,0.901961,1];
@@ -1137,10 +3206,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.000000,-4.500000];
     materialName := "Oldlace";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Oldlace";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "olive";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.501961,0.501961,0.000000,1];
@@ -1149,10 +3240,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.500000,-4.500000];
     materialName := "Olive";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Olive";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "olivedrab";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.419608,0.556863,0.137255,1];
@@ -1161,10 +3274,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.000000,-4.500000];
     materialName := "Olivedrab";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Olivedrab";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "orange";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.647059,0.000000,1];
@@ -1173,10 +3308,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.500000,-4.500000];
     materialName := "Orange";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Orange";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "orangered";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.270588,0.000000,1];
@@ -1185,10 +3342,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.000000,-4.500000];
     materialName := "Orangered";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Orangered";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "orchid";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.854902,0.439216,0.839216,1];
@@ -1197,10 +3376,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.500000,-4.500000];
     materialName := "Orchid";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Orchid";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "palegoldenrod";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.933333,0.909804,0.666667,1];
@@ -1209,10 +3410,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.000000,-5.000000];
     materialName := "Palegoldenrod";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Palegoldenrod";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "palegreen";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.596078,0.984314,0.596078,1];
@@ -1221,10 +3444,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.500000,-5.000000];
     materialName := "Palegreen";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Palegreen";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "paleturquoise";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.686275,0.933333,0.933333,1];
@@ -1233,10 +3478,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.000000,-5.000000];
     materialName := "Paleturquoise";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Paleturquoise";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "palevioletred";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.858824,0.439216,0.576471,1];
@@ -1245,10 +3512,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.500000,-5.000000];
     materialName := "Palevioletred";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Palevioletred";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "papayawhip";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.937255,0.835294,1];
@@ -1257,10 +3546,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.000000,-5.000000];
     materialName := "Papayawhip";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Papayawhip";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "peachpuff";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.854902,0.725490,1];
@@ -1269,10 +3580,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.500000,-5.000000];
     materialName := "Peachpuff";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Peachpuff";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "peru";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.803922,0.521569,0.247059,1];
@@ -1281,10 +3614,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.000000,-5.000000];
     materialName := "Peru";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Peru";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "pink";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.752941,0.796078,1];
@@ -1293,10 +3648,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.500000,-5.000000];
     materialName := "Pink";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Pink";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "plum";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.866667,0.627451,0.866667,1];
@@ -1305,10 +3682,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.000000,-5.000000];
     materialName := "Plum";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Plum";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "powderblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.690196,0.878431,0.901961,1];
@@ -1317,10 +3716,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.500000,-5.000000];
     materialName := "Powderblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Powderblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "purple";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.501961,0.000000,0.501961,1];
@@ -1329,10 +3750,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.000000,-5.500000];
     materialName := "Purple";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Purple";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "red";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.000000,0.000000,1];
@@ -1341,10 +3784,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.500000,-5.500000];
     materialName := "Red";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Red";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "rosybrown";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.737255,0.560784,0.560784,1];
@@ -1353,10 +3818,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.000000,-5.500000];
     materialName := "Rosybrown";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Rosybrown";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "royalblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.254902,0.411765,0.882353,1];
@@ -1365,10 +3852,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.500000,-5.500000];
     materialName := "Royalblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Royalblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "saddlebrown";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.545098,0.270588,0.074510,1];
@@ -1377,10 +3886,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.000000,-5.500000];
     materialName := "Saddlebrown";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Saddlebrown";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "salmon";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.980392,0.501961,0.447059,1];
@@ -1389,10 +3920,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.500000,-5.500000];
     materialName := "Salmon";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Salmon";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "sandybrown";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.956863,0.643137,0.376471,1];
@@ -1401,10 +3954,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.000000,-5.500000];
     materialName := "Sandybrown";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Sandybrown";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "seagreen";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.180392,0.545098,0.341176,1];
@@ -1413,10 +3988,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.500000,-5.500000];
     materialName := "Seagreen";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Seagreen";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "seashell";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.960784,0.933333,1];
@@ -1425,10 +4022,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.000000,-5.500000];
     materialName := "Seashell";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Seashell";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "sienna";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.627451,0.321569,0.176471,1];
@@ -1437,10 +4056,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.500000,-5.500000];
     materialName := "Sienna";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Sienna";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "silver";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.752941,0.752941,0.752941,1];
@@ -1449,10 +4090,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.000000,-6.000000];
     materialName := "Silver";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Silver";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "skyblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.529412,0.807843,0.921569,1];
@@ -1461,10 +4124,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.500000,-6.000000];
     materialName := "Skyblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Skyblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "slateblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.415686,0.352941,0.803922,1];
@@ -1473,10 +4158,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.000000,-6.000000];
     materialName := "Slateblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Slateblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "slategray";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.439216,0.501961,0.564706,1];
@@ -1485,10 +4192,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.500000,-6.000000];
     materialName := "Slategray";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Slategray";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "snow";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.980392,0.980392,1];
@@ -1497,10 +4226,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.000000,-6.000000];
     materialName := "Snow";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Snow";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "springgreen";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.000000,1.000000,0.498039,1];
@@ -1509,10 +4260,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.500000,-6.000000];
     materialName := "Springgreen";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Springgreen";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "steelblue";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.274510,0.509804,0.705882,1];
@@ -1521,10 +4294,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.000000,-6.000000];
     materialName := "Steelblue";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Steelblue";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "tan";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.823529,0.705882,0.549020,1];
@@ -1533,10 +4328,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.500000,-6.000000];
     materialName := "Tan";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Tan";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "teal";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.000000,0.501961,0.501961,1];
@@ -1545,10 +4362,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.000000,-6.000000];
     materialName := "Teal";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Teal";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "thistle";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.847059,0.749020,0.847059,1];
@@ -1557,10 +4396,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [4.500000,-6.000000];
     materialName := "Thistle";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Thistle";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "tomato";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,0.388235,0.278431,1];
@@ -1569,10 +4430,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.000000,-6.500000];
     materialName := "Tomato";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Tomato";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "turquoise";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.250980,0.878431,0.815686,1];
@@ -1581,10 +4464,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [0.500000,-6.500000];
     materialName := "Turquoise";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Turquoise";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "violet";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.933333,0.509804,0.933333,1];
@@ -1593,10 +4498,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.000000,-6.500000];
     materialName := "Violet";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Violet";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "wheat";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.960784,0.870588,0.701961,1];
@@ -1605,10 +4532,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [1.500000,-6.500000];
     materialName := "Wheat";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Wheat";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "white";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,1.000000,1.000000,1];
@@ -1617,10 +4566,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.000000,-6.500000];
     materialName := "White";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "White";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "whitesmoke";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.960784,0.960784,0.960784,1];
@@ -1629,10 +4600,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [2.500000,-6.500000];
     materialName := "Whitesmoke";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Whitesmoke";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "yellow";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [1.000000,1.000000,0.000000,1];
@@ -1641,10 +4634,32 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.000000,-6.500000];
     materialName := "Yellow";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Yellow";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
 
 Scene.addCircle {
     _id := "yellowgreen";
+    _nameflag := false;
     collideSet := 1;
     drawBorder := false;
     color := [0.603922,0.803922,0.196078,1];
@@ -1653,4 +4668,25 @@ Scene.addCircle {
     radius := 0.25000000;
     pos := [3.500000,-6.500000];
     materialName := "Yellowgreen";
+    onSpawn := (e)=>{
+        _nameflag ? {} : {
+            Scene.addBox {
+                _follow := e.this.entityID;
+                text := "Yellowgreen";
+                textFont := "DIN Pro";
+                textFontSize := 128;
+                textScale := 0.5;
+                size := [2,0.5];
+                color := [0,0,0,0];
+                drawBorder := false;
+                density := +inf;
+                pos := {
+                    ent = scene.entityByID(_follow);
+                    ent.pos + [0,0.5]
+                };
+                collideSet := 0;
+            };
+            _nameflag = true;
+        };
+    };
 };
